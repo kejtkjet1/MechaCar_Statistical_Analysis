@@ -20,7 +20,7 @@ Analysis of the data using R Studio.
 
 - The user can enter the above filter criteria in the image box below
 
-![Linear_regression.png]https://github.com/kejtkjet1/MechaCar_Statistical_Analysis/blob/main/images/Linear_regression.png!
+![Linear_regression.png]https://github.com/kejtkjet1/MechaCar_Statistical_Analysis/blob/main/images/Linear_regression.png
 
 ## Summary
 
