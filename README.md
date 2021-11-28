@@ -23,7 +23,12 @@ Analysis of the data using R Studio.
 
 ## Summary Statistics on Suspension Coils
 
+- The Suspension Coil dataset show results of testing the weight capacities of multiple suspension coils from multiple production lots to determine consistency.
+
+
 ![total_summary_df.png](https://github.com/kejtkjet1/MechaCar_Statistical_Analysis/blob/main/images/total_summary_df.png)
 ![Lot_summary_df.png](https://github.com/kejtkjet1/MechaCar_Statistical_Analysis/blob/main/images/Lot_summary_df.png)
 
-- The new design is quite nice and allows us to search by multiple different criteria. We should add a feature that allows us to clear the filter instantly without having to manualy change all the filter options. 
+- The variance of the coils is 62.29 PSI, it well within the 100 PSI variance requirement.
+
+- Lot 1 and Lot 2 are well within the 100 PSI. Lot 3 that is creating issues with variance of 170. that lot is affection the overall variance of all lots combined. Without lot 3 there would be nearly no variance. 
