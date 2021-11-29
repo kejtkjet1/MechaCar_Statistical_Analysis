@@ -31,4 +31,14 @@ Analysis of the data using R Studio.
 
 - The variance of the coils is 62.29 PSI, it well within the 100 PSI variance requirement.
 
-- Lot 1 and Lot 2 are well within the 100 PSI. Lot 3 that is creating issues with variance of 170. that lot is affection the overall variance of all lots combined. Without lot 3 there would be nearly no variance. 
+- Lot 1 and Lot 2 are well within the 100 PSI. Lot 3 that is creating issues with variance of 170. that lot is affecting the overall variance of all lots combined. Without lot 3 there would be nearly no variance. 
+
+## T-Tests on Suspension Coils
+
+T-Test overall
+
+![ttest.png](https://github.com/kejtkjet1/MechaCar_Statistical_Analysis/blob/main/images/ttest.png)
+
+T-Test for samples
+![ttest_samples.png](https://github.com/kejtkjet1/MechaCar_Statistical_Analysis/blob/main/images/ttest_samples.png)
+
