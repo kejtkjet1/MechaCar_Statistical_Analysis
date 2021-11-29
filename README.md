@@ -61,14 +61,15 @@ Colect data for different models from all other manufacturers for past 3 years f
 - Kelly Blue Book Resale Value: Dependant Variable
 - MPG (Gasoline Efficiency): Independent Variable
 - Weight: Independent Variable
+- Manufacturer: Independent Variable
 
 
 Hypothesis: Null and Alternative
 After determining which factors are key for the MechaCar's genre:
 
-Null Hypothesis (Ho): MechaCar Resell priec is same as other similar competitors based on all the measured metrics. 
-Alternative Hypothesis (Ha): MechaCar resalw value is affected by factors beyond manufacturer type
+Null Hypothesis (Ho): MechaCar Resell priece is same as other similar competitors based on all the measured metrics. 
+Alternative Hypothesis (Ha): MechaCar resale value is dissimilar and influenced by some factors beyond manufacturer type
 
 
 Statistical Tests
-A multiple linear regression would be used to determine the factors that have the highest correlation/predictability with the resell price. It can be one of many of the fastors that affect the price based on the manufacturer.
+A multiple linear regression would be used to determine the factors that have the highest correlation/predictability with the resell price. It can be one or many of the facstors that affect the price based on the manufacturer.
