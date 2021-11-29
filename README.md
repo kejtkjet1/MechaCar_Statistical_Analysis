@@ -39,6 +39,36 @@ T-Test overall
 
 ![ttest.png](https://github.com/kejtkjet1/MechaCar_Statistical_Analysis/blob/main/images/ttest.png)
 
+- Mean of the sample is 1498.78. P-Value of 0.06 is higher than the common significance level of 0.05, there is NOT enough evidence to support rejecting the null hypothesis. Mean of all three of these manufacturing lots is statistically similar to the presumed population mean of 1500
+
+
 T-Test for samples
 ![ttest_samples.png](https://github.com/kejtkjet1/MechaCar_Statistical_Analysis/blob/main/images/ttest_samples.png)
 
+- Next looking at each individual lots:
+
+    -  Lot 1 sample has mean of 1500. P-Value of 1, clearly we cannot reject (i.e. accept) the null hypothesis that there is no statistical difference between the observed sample mean and the presumed population mean (1500).
+    - Lot 2 is similar, sample mean  1500.02, a p-Value of 0.61; the null hypothesis cannot be rejected, and the sample mean and the population mean of 1500 are statistically similar.
+    - Lot 3 is diffeernt than other 2. Mean is 1496.14 and the p-Value is 0.04, which is lower than the common significance level of 0.05. We can reject the null hypothesis that this sample mean and the presumed population mean are not statistically different - therefore assume the are statistically differnt.
+
+## Study Design: MechaCar vs Competition
+
+Colect data for different models from all other manufacturers for past 3 years for a variety of  metrics:
+
+- Current Price (Selling): Independent Variable
+- Safety Rating: Independent Variable 
+- Engine Type (Electric, Hybrid, Gasoline): Independent Variable
+- Kelly Blue Book Resale Value: Dependant Variable
+- MPG (Gasoline Efficiency): Independent Variable
+- Weight: Independent Variable
+
+
+Hypothesis: Null and Alternative
+After determining which factors are key for the MechaCar's genre:
+
+Null Hypothesis (Ho): MechaCar Resell priec is same as other similar competitors based on all the measured metrics. 
+Alternative Hypothesis (Ha): MechaCar resalw value is affected by factors beyond manufacturer type
+
+
+Statistical Tests
+A multiple linear regression would be used to determine the factors that have the highest correlation/predictability with the resell price. It can be one of many of the fastors that affect the price based on the manufacturer.
